@@ -17,6 +17,7 @@ gem 'jquery-rails'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.5
 gem 'uglifier'
+gem 'sass-rails'
 # Repack
 gem 'repack'
 gem 'devise'
