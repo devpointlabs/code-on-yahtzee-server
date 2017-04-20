@@ -15,7 +15,8 @@ gem 'puma', '~> 3.0'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-# gem 'jbuilder', '~> 2.5'
+# gem 'jbuilder', '~> 2.5
+gem 'uglifier'
 # Repack
 gem 'repack'
 gem 'devise'
