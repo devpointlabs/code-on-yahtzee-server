@@ -1,4 +1,4 @@
-class Api::RegistraionsController < DeviseTokenAuth::RegistrationsController
+class Api::RegistrationsController < DeviseTokenAuth::RegistrationsController
   def create
     super do |resource|
       sign_in(resource)
