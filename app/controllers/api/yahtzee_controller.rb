@@ -3,12 +3,6 @@ class Api::YahtzeeController < ApplicationController
   
   def index
     @scores = Score.all.order(value: :desc)
-    render :scores
-  end
-
-  def show
-    @scores = current_user.scores.order(value: :desc)
-    render :scores
   end
   
   def create

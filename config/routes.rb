@@ -6,7 +6,6 @@ Rails.application.routes.draw do
 
   namespace :api do
     get '/yahtzee_scores', to: 'yahtzee#index'
-    get '/my_yahtzee_scores', to: 'yahtzee#show'
     post '/yahtzee_scores', to: 'yahtzee#create'
   end
 end
