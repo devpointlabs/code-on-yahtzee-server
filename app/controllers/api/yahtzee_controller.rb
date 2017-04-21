@@ -2,11 +2,11 @@ class Api::YahtzeeController < ApplicationController
   before_action :authenticate_user!
   
   def index
-    render json: Score.all
+    render json: Score.all.order(value: :desc)
   end
 
   def show
-    render json: current_user.scores
+    render json: current_user.scores.order(value: :desc)
   end
   
   def create
