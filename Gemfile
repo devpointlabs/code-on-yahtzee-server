@@ -23,6 +23,7 @@ gem 'repack'
 gem 'devise'
 gem 'omniauth'
 gem 'devise_token_auth'
+gem 'rack-cors', :require => 'rack/cors'
 
 group :development, :test do
   gem 'pry'
