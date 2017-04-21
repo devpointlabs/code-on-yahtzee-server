@@ -39,7 +39,6 @@ ActiveRecord::Schema.define(version: 20170420224905) do
     t.datetime "confirmed_at"
     t.datetime "confirmation_sent_at"
     t.string   "unconfirmed_email"
-    t.string   "name"
     t.string   "nickname"
     t.string   "email"
     t.json     "tokens"
